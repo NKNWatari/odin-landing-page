@@ -1,0 +1,124 @@
+* {border: 1px solid red;}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0px 15%;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.header .logo {
+  flex: 1;
+}
+
+.header .link {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  gap: 16px;
+}
+
+.body1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex: 1 1 auto;
+  gap: 8px;
+}
+
+.body1 .left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.body1 .left .header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.body1 .left .subtext {
+  font-size: 16px;
+}
+
+.body1 .left button {
+  padding: 4px 24px;
+}
+
+.body1 .imgFrame {
+  width: 400px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body2 {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.body2 .header {
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.body2 .content {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.body2 .individualContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.body2 .imgBox {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body2 .imgDesc {
+  justify-content: center;
+  text-align: center;
+}
+
+.body3 {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.body4 {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto; 
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
